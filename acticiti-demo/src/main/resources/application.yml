@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    username: root
+    password: 19970825
+    url: jdbc:mysql://localhost:3306/acticiti?nullCatalogMeansCurrent=true
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  devtools:
+    restart:
+      enabled: true  #设置开启热部署
+  activiti:
+    database-schema-update: true
+    history-level: full
+    db-history-used: true
+
+
+debug: true
