@@ -1,0 +1,21 @@
+server:
+  port: 8789
+spring:
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB
+  rabbitmq:
+    username: admin
+    password: admin
+    virtual-host: /
+    host: 47.108.161.160
+    port: 5672
+
+minio:
+  endpoint: http://47.108.161.160:9000/
+  accessKey: AKIAIOSFODNN7EXAMPLE
+  secretKey: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+  bucketName: test
+
+
